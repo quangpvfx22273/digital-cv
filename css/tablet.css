@@ -1,0 +1,25 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* nav-bar */
+  .banner-2 {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    margin-right: 1rem;
+  }
+  #nav-bar {
+    padding-top: 10px;
+  }
+  /* end-nav */
+  /* section1-about */
+  .mt-40.info {
+    margin-left: -3rem;
+    line-height: 1.5;
+  }
+  /* end-about */
+
+  .cer-list {
+    flex-direction: column;
+    column-gap: 10px;
+  }
+}
